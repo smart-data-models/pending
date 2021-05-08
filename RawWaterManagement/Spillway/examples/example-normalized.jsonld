@@ -1,0 +1,149 @@
+{
+  "location": {
+    "type": "Property",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        60.3603485,
+        -129.682253
+      ]
+    }
+  },
+  "address": {
+    "type": "Property",
+    "value": {
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "addressCountry": "",
+      "postalCode": "",
+      "postOfficeBoxNumber": "",
+      "areaServed": ""
+    }
+  },
+  "areaServed": {
+    "type": "Property",
+    "value": ""
+  },
+  "id": "urn:ngsi-ld:Spillway:id:FFPG:06271993",
+  "dateCreated": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "1992-10-12T04:27:47Z"
+    }
+  },
+  "dateModified": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "1994-09-26T16:22:05Z"
+    }
+  },
+  "source": {
+    "type": "Property",
+    "value": ""
+  },
+  "name": {
+    "type": "Property",
+    "value": "SP01"
+  },
+  "alternateName": {
+    "type": "Property",
+    "value": "SP01 - Thivae"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Spillway 01 - Thivae"
+  },
+  "dataProvider": {
+    "type": "Property",
+    "value": "EYDAP"
+  },
+  "owner": {
+    "type": "Property",
+    "value": [
+      "urn:ngsi-ld:Spillway:items:OFPV:04640010",
+      "urn:ngsi-ld:Spillway:items:BFAT:33357858"
+    ]
+  },
+  "seeAlso": {
+    "type": "Property",
+    "value": [
+      "urn:ngsi-ld:Spillway:items:VLIF:47226224",
+      "urn:ngsi-ld:Spillway:items:BDSZ:68275691"
+    ]
+  },
+  "type": "Spillway",
+  "tag": {
+    "type": "Property",
+    "value": ""
+  },
+  "spillwayType": {
+    "type": "Property",
+    "value": "Ogee"
+  },
+  "crestElevation": {
+    "type": "Property",
+    "value": 26.4
+  },
+  "crestLength": {
+    "type": "Property",
+    "value": 5
+  },
+  "spillwayWidth": {
+    "type": "Property",
+    "value": 5
+  },
+  "numberAbutments": {
+    "type": "Property",
+    "value": 2
+  },
+  "apronElevation": {
+    "type": "Property",
+    "value": 22
+  },
+  "apronLength": {
+    "type": "Property",
+    "value": 5
+  },
+  "dischargeCoefficient": {
+    "type": "Property",
+    "value": 5
+  },
+  "designHead": {
+    "type": "Property",
+    "value": 30.4
+  },
+  "designDischarge": {
+    "type": "Property",
+    "value": 20
+  },
+  "designDischargeCoefficient": {
+    "type": "Property",
+    "value": 0.4
+  },
+  "maxFloodElevation": {
+    "type": "Property",
+    "value": 4
+  },
+  "controlCrossSection": {
+    "type": "object",
+    "value": "urn:ngsi-ld:Spillway:controlCrossSection:JXFD:60487647"
+  },
+  "curveElevationDischarge": {
+    "type": "object",
+    "value": "urn:ngsi-ld:Spillway:curveElevationDischarge:CBWI:21948924"
+  },
+  "curveDischargeCoefficient": {
+    "type": "object",
+    "value": "urn:ngsi-ld:Spillway:curveDischargeCoefficient:MWGU:81565938"
+  },
+  "curveDesignDischargeCoefficient": {
+    "type": "object",
+    "value": "urn:ngsi-ld:Spillway:curveDesignDischargeCoefficient:GIWE:80160975"
+  },
+  "@context": [
+    "https://smartdatamodels.org/context.jsonld"
+  ]
+}
